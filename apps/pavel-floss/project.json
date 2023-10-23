@@ -1,7 +1,7 @@
 {
-  "name": "undefined",
+  "name": "pavel-floss",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/undefined/src",
+  "sourceRoot": "apps/pavel-floss/src",
   "projectType": "application",
   "targets": {
     "start": {
@@ -14,7 +14,7 @@
     "serve": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "nx start undefined"
+        "command": "nx start pavel-floss"
       }
     },
     "run-ios": {
@@ -69,7 +69,7 @@
       "dependsOn": ["ensure-symlink", "sync-deps"],
       "options": {
         "platform": "all",
-        "outputDir": "../../dist/apps/undefined"
+        "outputDir": "../../dist/apps/pavel-floss"
       }
     },
     "export-web": {
@@ -82,14 +82,14 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/undefined/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/pavel-floss/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/undefined/jest.config.ts",
+        "jestConfig": "apps/pavel-floss/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {

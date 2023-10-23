@@ -1,5 +1,5 @@
 {
-  "name": "undefined",
+  "name": "pavel-floss",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-native-web": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/undefined && cp package-lock.json apps/undefined",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/undefined"
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/pavel-floss && cp package-lock.json apps/pavel-floss",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/pavel-floss"
   }
 }
