@@ -591,7 +591,7 @@ const styles = StyleSheet.create({
   },
   monospace: {
     color: '#ffffff',
-    fontFamily: 'Courier New',
+    fontFamily: 'monospace',
     marginVertical: 4,
   },
   comment: {
