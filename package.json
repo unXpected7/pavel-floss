@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "@expo/metro-config": "~0.10.7",
+    "@react-native-async-storage/async-storage": "^1.19.3",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.16",
     "expo": "49.0.10",
@@ -22,7 +23,9 @@
     "react-native-screens": "^3.26.0",
     "react-native-svg": "13.9.0",
     "react-native-svg-transformer": "1.0.0",
+    "react-native-vector-icons": "^10.0.0",
     "react-native-web": "~0.19.8",
+    "react-query": "^3.39.3",
     "tamagui": "^1.75.1",
     "tslib": "^2.3.0",
     "zustand": "^4.4.4"
