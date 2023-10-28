@@ -8,10 +8,23 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,
-    "declaration": true
+    "declaration": true,
+    "composite": true,
+    "disableSizeLimit": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Component/*": ["./src/components/*"],
+      "@assets": ["./assets/index.ts"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@zustand/*": ["./src/zustand/*"],
+      "@api/*": ["./src/api/*"]
+    }
   },
   "files": [],
-  "include": [],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./assets/index.ts"],
+  "exclude": ["node_modules"],
   "references": [
     {
       "path": "./tsconfig.app.json"
