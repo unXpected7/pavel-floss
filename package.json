@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nx start pavel-floss",
     "preinstall": "npx only-allow pnpm",
-    "postinstall": "nx ensure-symlink pavel-floss && nx sync-deps pavel-floss"
+    "postinstall": "nx ensure-symlink pavel-floss && nx sync-deps pavel-floss",
+    "test": "nx test pavel-floss -o --codeCoverage=true --testFile"
   },
   "private": true,
   "dependencies": {
